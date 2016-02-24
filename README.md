@@ -42,12 +42,15 @@ You can change the sites, just like in any Nginx.
 #Edit in files:
 
 * Edit in `nginx-data/sites-available`:
+<br />
 Change the site configuration, like port and root folder, you can add sites.
 
 * Edit in `nginx-data/site-data`:
+<br />
 This is where your site goes - folders amd files.
 
 * Edit in `nginx-data/conf/nginx.conf`:
+<br />
 This is allready goes to `sites-available`, nothing to do here.
 
 <br />
