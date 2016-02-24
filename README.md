@@ -72,3 +72,7 @@ https://docs.docker.com/engine/installation/
 #Docker Compose install:
 
 https://docs.docker.com/compose/install/
+
+<br />
+docker compose with nginx server blocks
+docker-compose virtual hosts nginx
