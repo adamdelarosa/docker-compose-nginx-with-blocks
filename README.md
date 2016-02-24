@@ -1,9 +1,12 @@
 #Docker Compose: 
 #Nginx with blocks (nginx virtual hosts) with DOCKER
 
-Run this with `docker-compose up -d`, then run `docker ps -a`. 
+Run this with `docker-compose up -d`, then run `docker ps -a` 
 
 And see Nginx up and running on ports: `80:80`,`8080:8080`,`9090:9090`.
+
+
+
 
 Try after run:
 
