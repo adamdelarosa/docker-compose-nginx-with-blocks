@@ -1,9 +1,8 @@
 #Docker Compose: 
 #Nginx with blocks (nginx virtual hosts) with DOCKER
 
-Run this with `docker-compose up -d`, then run `docker ps -a` 
-
-And see Nginx up and running on ports: `80:80`,`8080:8080`,`9090:9090`. *separate paragraph*
+Run this with `docker-compose up -d`, then run `docker ps -a`. 
+And see Nginx up and running on ports: `80:80`,`8080:8080`,`9090:9090`.
 
 
 
@@ -18,7 +17,6 @@ http://127.0.0.1:8080/
 Third site:
 http://127.0.0.1:9090/
 
-*separate paragraph*
 
 #Configuration:
 
