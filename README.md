@@ -23,21 +23,17 @@ http://127.0.0.1:9090/
 This is what iv'e used..
 You can change the sites, just like in any Nginx.
 
-├── docker-compose.yml
-└── nginx-data
-    ├── conf
-    │   └── nginx.conf
-    ├── site-data
-    │   ├── example_one
-    │   │   └── index.html
-    │   ├── example_three
-    │   │   └── index.html
-    │   └── example_two
-    │       └── index.html
-    └── sites-available
-        ├── example_one.com
-        ├── example_three.com
-        └── example_two.com
+#Volumes:
+
+Site :          - ./nginx-data/site-data/example_one:/var/www/example_one.com/public_html
+Site :          - ./nginx-data/site-data/example_two:/var/www/example_two.com/public_html
+Site :          - ./nginx-data/site-data/example_three:/var/www/example_three.com/public_html
+Site included:  - ./nginx-data/sites-available:/etc/nginx/sites-available
+Nginx conf:     - ./nginx-data/conf/nginx.conf:/etc/nginx/nginx.conf
+
+
+
+
 <br />
 #Edit in files:
 
