@@ -25,26 +25,25 @@ You can change the sites, just like in any Nginx.
 
 <br />
 #Volumes:
+Site :
+<br />
+`- ./nginx-data/site-data/example_one:/var/www/example_one.com/public_html`
 <br />
 Site :
 <br />
-- ./nginx-data/site-data/example_one:/var/www/example_one.com/public_html
+`- ./nginx-data/site-data/example_two:/var/www/example_two.com/public_html`
 <br />
 Site :
 <br />
-- ./nginx-data/site-data/example_two:/var/www/example_two.com/public_html
-<br />
-Site :
-<br />
-- ./nginx-data/site-data/example_three:/var/www/example_three.com/public_html
+`- ./nginx-data/site-data/example_three:/var/www/example_three.com/public_html`
 <br />
 Site included:
 <br />
-- ./nginx-data/sites-available:/etc/nginx/sites-available
+`- ./nginx-data/sites-available:/etc/nginx/sites-available`
 <br />
 Nginx conf:
 <br />
-- ./nginx-data/conf/nginx.conf:/etc/nginx/nginx.conf
+`- ./nginx-data/conf/nginx.conf:/etc/nginx/nginx.conf`
 <br />
 
 
