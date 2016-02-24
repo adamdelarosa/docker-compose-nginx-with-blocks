@@ -1,11 +1,17 @@
-# docker-compose: Nginx with blocks (nginx virtual hosts) with DOCKER
+#Docker Compose: 
+#Nginx with blocks (nginx virtual hosts) with DOCKER
 
 Run this with "docker-compose up -d", then run "docker ps -a" and see Nginx up and running on ports: "80:80","8080:8080","9090:9090".
 
 Try after run:
 
+First site:
 http://127.0.0.1/
+
+Second site:
 http://127.0.0.1:8080/
+
+Third site:
 http://127.0.0.1:9090/
 
 #Configuration:
@@ -29,6 +35,7 @@ You can change the sites, just like in any Nginx.
         ├── example_three.com
         └── example_two.com
 
+#Edit in files:
 
 * Edit in "sites-available":
 Change the site configuration, like port and root folder, you can add sites.
