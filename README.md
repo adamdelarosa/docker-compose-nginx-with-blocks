@@ -3,8 +3,7 @@
 
 Run this with `docker-compose up -d`, then run `docker ps -a` 
 
-And see Nginx up and running on ports: `80:80`,`8080:8080`,`9090:9090`.
-
+And see Nginx up and running on ports: `80:80`,`8080:8080`,`9090:9090`. *separate paragraph*
 
 
 
@@ -18,6 +17,8 @@ http://127.0.0.1:8080/
 
 Third site:
 http://127.0.0.1:9090/
+
+*separate paragraph*
 
 #Configuration:
 
