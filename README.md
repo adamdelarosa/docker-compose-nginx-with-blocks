@@ -42,13 +42,13 @@ You can change the sites, just like in any Nginx.
 
 #Edit in files:
 
-* Edit in `sites-available`:
+* Edit in `nginx-data/sites-available`:
 Change the site configuration, like port and root folder, you can add sites.
 
-* Edit in `site-data`:
+* Edit in `nginx-data/site-data`:
 This is where your site goes - folders amd files.
 
-* Edit in `nginx-data`:
+* Edit in `nginx-data/conf/nginx.conf`:
 This is allready goes to `sites-available`, nothing to do here.
 
 #Docker install:
