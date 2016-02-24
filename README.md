@@ -23,14 +23,19 @@ http://127.0.0.1:9090/
 This is what iv'e used..
 You can change the sites, just like in any Nginx.
 
+<br />
 #Volumes:
-
+<br />
 Site :          - ./nginx-data/site-data/example_one:/var/www/example_one.com/public_html
+<br />
 Site :          - ./nginx-data/site-data/example_two:/var/www/example_two.com/public_html
+<br />
 Site :          - ./nginx-data/site-data/example_three:/var/www/example_three.com/public_html
+<br />
 Site included:  - ./nginx-data/sites-available:/etc/nginx/sites-available
+<br />
 Nginx conf:     - ./nginx-data/conf/nginx.conf:/etc/nginx/nginx.conf
-
+<br />
 
 
 
